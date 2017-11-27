@@ -70,7 +70,23 @@ public class AbstractionViewController: UIViewController, UIPageViewControllerDa
         
         return orderedAbstractionViews[previousIndex]
     }
+    
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController?
+    {
+        return nil
+    }
+    
+    let nextIndex = viewControllerIndex + 1
+    
+    guard nextIndex < orderedAbstractionViews.count
+    else
+    {
+        return orderedAbstractionView.first
+    }
 
+    return orderedAbstractionViews[nextIndex]
+}
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

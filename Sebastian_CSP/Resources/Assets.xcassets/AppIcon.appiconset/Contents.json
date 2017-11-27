@@ -89,6 +89,26 @@
       "idiom" : "ios-marketing",
       "size" : "1024x1024",
       "scale" : "1x"
+    },
+    {
+      "filename" : "AMD_Logo-old.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "CorsairLogo.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "intelLog.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "NvidiaLogo.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Seagate_logo.png",
+      "unassigned" : true
     }
   ],
   "info" : {

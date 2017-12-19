@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76518B831FCF3BAF00A36A67 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76518B821FCF3BAF00A36A67 /* WebKit.framework */; };
+		765440161FD9D37200677FBD /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765440151FD9D37200677FBD /* ArtCell.swift */; };
 		76A8EE371FB399FC00A3FDF6 /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A8EE361FB399FC00A3FDF6 /* AlgorithmsViewController.swift */; };
-		76B760BF1FCC9EEC0047162A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B760BE1FCC9EEC0047162A /* ViewController.swift */; };
+		76C4A0081FE9A2F90058C025 /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4A0071FE9A2F90058C025 /* PlayerLaser.swift */; };
+		76C4A00A1FE9A4A40058C025 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4A0091FE9A4A40058C025 /* DeathScene.swift */; };
+		76C4A0141FE9A8AC0058C025 /* InvaderLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4A00F1FE9A8AB0058C025 /* InvaderLaser.swift */; };
+		76C4A0151FE9A8AC0058C025 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4A0101FE9A8AB0058C025 /* Player.swift */; };
+		76C4A0161FE9A8AC0058C025 /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4A0111FE9A8AC0058C025 /* Invader.swift */; };
+		76C4A0171FE9A8AC0058C025 /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4A0121FE9A8AC0058C025 /* PlayerLaser.swift */; };
+		76C4A0181FE9A8AC0058C025 /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4A0131FE9A8AC0058C025 /* Projectile.swift */; };
 		76CCE4521FA2599700A69930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE4511FA2599700A69930 /* AppDelegate.swift */; };
 		76CCE4541FA2599700A69930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE4531FA2599700A69930 /* ViewController.swift */; };
 		76CCE4571FA2599700A69930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CCE4551FA2599700A69930 /* Main.storyboard */; };
@@ -16,9 +24,9 @@
 		76CCE45C1FA2599700A69930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CCE45A1FA2599700A69930 /* LaunchScreen.storyboard */; };
 		76CCE4671FA2599700A69930 /* Sebastian_CSPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE4661FA2599700A69930 /* Sebastian_CSPTests.swift */; };
 		76CCE4721FA2599700A69930 /* Sebastian_CSPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE4711FA2599700A69930 /* Sebastian_CSPUITests.swift */; };
-		76CCE4931FA25F1000A69930 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE4921FA25F1000A69930 /* SecondViewController.swift */; };
-		76CCE4951FA25F1A00A69930 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE4941FA25F1A00A69930 /* ThirdViewController.swift */; };
-		76CCE4971FA25F2200A69930 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE4961FA25F2200A69930 /* FourthViewController.swift */; };
+		76CCE4931FA25F1000A69930 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE4921FA25F1000A69930 /* InternetMasterViewController.swift */; };
+		76CCE4951FA25F1A00A69930 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE4941FA25F1A00A69930 /* InternetDetailViewController.swift */; };
+		76CCE4971FA25F2200A69930 /* CreativityViewController in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE4961FA25F2200A69930 /* CreativityViewController */; };
 		76CCE4991FA25F2900A69930 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE4981FA25F2900A69930 /* FifthViewController.swift */; };
 		76CCE49B1FA25F3700A69930 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE49A1FA25F3700A69930 /* SixthViewController.swift */; };
 		76CCE49D1FA25F4D00A69930 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCE49C1FA25F4D00A69930 /* SeventhViewController.swift */; };
@@ -42,8 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76518B821FCF3BAF00A36A67 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		765440151FD9D37200677FBD /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		76A8EE361FB399FC00A3FDF6 /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
-		76B760BE1FCC9EEC0047162A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76C4A0071FE9A2F90058C025 /* PlayerLaser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerLaser.swift; sourceTree = "<group>"; };
+		76C4A0091FE9A4A40058C025 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
+		76C4A00C1FE9A89B0058C025 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StartScene.swift; path = ../../../../../../Downloads/GameCode/GameController/StartScene.swift; sourceTree = "<group>"; };
+		76C4A00D1FE9A89B0058C025 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LevelCompleteScene.swift; path = ../../../../../../Downloads/GameCode/GameController/LevelCompleteScene.swift; sourceTree = "<group>"; };
+		76C4A00E1FE9A89B0058C025 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../../../../../../Downloads/GameCode/GameController/GameScene.swift; sourceTree = "<group>"; };
+		76C4A00F1FE9A8AB0058C025 /* InvaderLaser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvaderLaser.swift; path = ../../../../../Downloads/GameCode/Model/InvaderLaser.swift; sourceTree = "<group>"; };
+		76C4A0101FE9A8AB0058C025 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../../../../../Downloads/GameCode/Model/Player.swift; sourceTree = "<group>"; };
+		76C4A0111FE9A8AC0058C025 /* Invader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Invader.swift; path = ../../../../../Downloads/GameCode/Model/Invader.swift; sourceTree = "<group>"; };
+		76C4A0121FE9A8AC0058C025 /* PlayerLaser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerLaser.swift; path = ../../../../../Downloads/GameCode/Model/PlayerLaser.swift; sourceTree = "<group>"; };
+		76C4A0131FE9A8AC0058C025 /* Projectile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Projectile.swift; path = ../../../../../Downloads/GameCode/Model/Projectile.swift; sourceTree = "<group>"; };
 		76CCE44E1FA2599700A69930 /* Sebastian_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sebastian_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76CCE4511FA2599700A69930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76CCE4531FA2599700A69930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,9 +76,9 @@
 		76CCE46D1FA2599700A69930 /* Sebastian_CSPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sebastian_CSPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76CCE4711FA2599700A69930 /* Sebastian_CSPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sebastian_CSPUITests.swift; sourceTree = "<group>"; };
 		76CCE4731FA2599700A69930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76CCE4921FA25F1000A69930 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		76CCE4941FA25F1A00A69930 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		76CCE4961FA25F2200A69930 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		76CCE4921FA25F1000A69930 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		76CCE4941FA25F1A00A69930 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		76CCE4961FA25F2200A69930 /* CreativityViewController */ = {isa = PBXFileReference; lastKnownFileType = text; path = CreativityViewController; sourceTree = "<group>"; };
 		76CCE4981FA25F2900A69930 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		76CCE49A1FA25F3700A69930 /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
 		76CCE49C1FA25F4D00A69930 /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76518B831FCF3BAF00A36A67 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +110,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76518B811FCF3BAF00A36A67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76518B821FCF3BAF00A36A67 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76C4A0061FE9A2C90058C025 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76C4A0071FE9A2F90058C025 /* PlayerLaser.swift */,
+				76C4A0111FE9A8AC0058C025 /* Invader.swift */,
+				76C4A00F1FE9A8AB0058C025 /* InvaderLaser.swift */,
+				76C4A0101FE9A8AB0058C025 /* Player.swift */,
+				76C4A0121FE9A8AC0058C025 /* PlayerLaser.swift */,
+				76C4A0131FE9A8AC0058C025 /* Projectile.swift */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		76C4A00B1FE9A8790058C025 /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				76C4A0091FE9A4A40058C025 /* DeathScene.swift */,
+				76C4A00E1FE9A89B0058C025 /* GameScene.swift */,
+				76C4A00D1FE9A89B0058C025 /* LevelCompleteScene.swift */,
+				76C4A00C1FE9A89B0058C025 /* StartScene.swift */,
+			);
+			path = GameController;
+			sourceTree = "<group>";
+		};
 		76CCE4451FA2599700A69930 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +150,7 @@
 				76CCE4651FA2599700A69930 /* Sebastian_CSPTests */,
 				76CCE4701FA2599700A69930 /* Sebastian_CSPUITests */,
 				76CCE44F1FA2599700A69930 /* Products */,
+				76518B811FCF3BAF00A36A67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,10 +167,10 @@
 		76CCE4501FA2599700A69930 /* Sebastian_CSP */ = {
 			isa = PBXGroup;
 			children = (
+				76C4A0061FE9A2C90058C025 /* Model */,
 				76CCE48C1FA25D8800A69930 /* Controller */,
 				76CCE48D1FA25DD900A69930 /* View */,
 				76CCE48F1FA25DFE00A69930 /* Resources */,
-				76CCE4911FA25E9F00A69930 /* Model */,
 			);
 			path = Sebastian_CSP;
 			sourceTree = "<group>";
@@ -145,13 +199,14 @@
 				76CCE4511FA2599700A69930 /* AppDelegate.swift */,
 				76A8EE361FB399FC00A3FDF6 /* AlgorithmsViewController.swift */,
 				76CCE4531FA2599700A69930 /* ViewController.swift */,
-				76B760BE1FCC9EEC0047162A /* ViewController.swift */,
-				76CCE4921FA25F1000A69930 /* SecondViewController.swift */,
-				76CCE4941FA25F1A00A69930 /* ThirdViewController.swift */,
-				76CCE4961FA25F2200A69930 /* FourthViewController.swift */,
+				765440151FD9D37200677FBD /* ArtCell.swift */,
+				76CCE4921FA25F1000A69930 /* InternetMasterViewController.swift */,
+				76CCE4941FA25F1A00A69930 /* InternetDetailViewController.swift */,
+				76CCE4961FA25F2200A69930 /* CreativityViewController */,
 				76CCE4981FA25F2900A69930 /* FifthViewController.swift */,
-				76CCE49A1FA25F3700A69930 /* SixthViewController.swift */,
 				76CCE49C1FA25F4D00A69930 /* SeventhViewController.swift */,
+				76CCE49A1FA25F3700A69930 /* SixthViewController.swift */,
+				76C4A00B1FE9A8790058C025 /* GameController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -172,13 +227,6 @@
 				76CCE4581FA2599700A69930 /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		76CCE4911FA25E9F00A69930 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,16 +363,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B760BF1FCC9EEC0047162A /* ViewController.swift in Sources */,
+				76C4A0171FE9A8AC0058C025 /* PlayerLaser.swift in Sources */,
 				76CCE4991FA25F2900A69930 /* FifthViewController.swift in Sources */,
+				76C4A00A1FE9A4A40058C025 /* DeathScene.swift in Sources */,
+				76C4A0141FE9A8AC0058C025 /* InvaderLaser.swift in Sources */,
 				76CCE49B1FA25F3700A69930 /* SixthViewController.swift in Sources */,
+				76C4A0181FE9A8AC0058C025 /* Projectile.swift in Sources */,
+				76C4A0151FE9A8AC0058C025 /* Player.swift in Sources */,
 				76CCE49D1FA25F4D00A69930 /* SeventhViewController.swift in Sources */,
-				76CCE4931FA25F1000A69930 /* SecondViewController.swift in Sources */,
+				76CCE4931FA25F1000A69930 /* InternetMasterViewController.swift in Sources */,
+				76C4A0161FE9A8AC0058C025 /* Invader.swift in Sources */,
 				76A8EE371FB399FC00A3FDF6 /* AlgorithmsViewController.swift in Sources */,
 				76CCE4541FA2599700A69930 /* ViewController.swift in Sources */,
-				76CCE4951FA25F1A00A69930 /* ThirdViewController.swift in Sources */,
+				76C4A0081FE9A2F90058C025 /* PlayerLaser.swift in Sources */,
+				76CCE4951FA25F1A00A69930 /* InternetDetailViewController.swift in Sources */,
+				765440161FD9D37200677FBD /* ArtCell.swift in Sources */,
 				76CCE4521FA2599700A69930 /* AppDelegate.swift in Sources */,
-				76CCE4971FA25F2200A69930 /* FourthViewController.swift in Sources */,
+				76CCE4971FA25F2200A69930 /* CreativityViewController in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

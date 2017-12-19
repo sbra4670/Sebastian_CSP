@@ -86,12 +86,25 @@ public class AbstractionViewController: UIViewController, UIPageViewControllerDa
 
     return orderedAbstractionViews[nextIndex]
 }
+
+public func presentationIndex(for pageViewController: UIPageViewController) -> Int
+{
+    guard let firstViewController = viewControllers?.first, let firstViewControllerIndex = orderedAbstractionViews.index(of: firstViewController)
+        else
+    {
+     return 0
+    }
     
-    override func didReceiveMemoryWarning() {
+    return firstViewControllerIndex
+    
+}
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
 
-}
+
+
 

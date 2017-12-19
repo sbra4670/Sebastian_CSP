@@ -1,14 +1,14 @@
 //
-//  SecondViewController.swift
+//  ArtCell.swift
 //  Sebastian_CSP
 //
-//  Created by Bravo, Sebastian on 10/26/17.
+//  Created by Bravo, Sebastian on 12/7/17.
 //  Copyright © 2017 Bravo, Sebastian. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ArtCell: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

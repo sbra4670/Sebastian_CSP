@@ -9,25 +9,25 @@
 import UIKit
 
 class AlgorithmsViewController: UIViewController {
-    @IBOutlet weak var algorithmText: UILabel!
+    @IBOutlet weak var AlgorithmText: UILabel!
 
     
     private func setupAlgorithm()-> Void
     {
-        var algorithmSteps : [String] = []
+        var AlgorithmSteps : [String] = []
         
-        //definition to algorithm and all steps
-        let algorithm :String = "These are the instructions to create a pect in Java using Eclipse and Github"
+        //definition to Algorithm and all steps
+        let Algorithm :String = "These are the instructions to create a pect in Java using Eclipse and Github"
         let stepOne :String = "First, open Eclipse, and right click on the project explorer window. Select new -> Java Project, name the project whatever you wish."
         let stepTwo :String = "Second, open Github, and select 'file' in the upper area of your screen. Select 'new repository'."
         let stepThree :String = "Lastly and most importantly, name your repository THE EXACT SAME as your Java Project in Eclipse"
         
-        algorithmSteps = [stepOne, stepTwo, stepThree]
+        AlgorithmSteps = [stepOne, stepTwo, stepThree]
         
-        let attributesDictionary = [NSAttributedStringKey.font : algorithmText.font]
-        let fullAttributedString = NSMutableAttributedString(string: algorithm, attributes: attributesDictionary)
+        let attributesDictionary = [NSAttributedStringKey.font : AlgorithmText.font]
+        let fullAttributedString = NSMutableAttributedString(string: Algorithm, attributes: attributesDictionary)
         
-        for step in algorithmSteps
+        for step in AlgorithmSteps
         {
             let bullet :String = "🖤"
             let formattedStep :String = "\n\(bullet) \(step)"
@@ -39,8 +39,7 @@ class AlgorithmsViewController: UIViewController {
             
             fullAttributedString.append(attributedStringStep.length)
         }
-        
-        algorithmText.attributedText = fullAttributedString
+        AlgorithmText.attributedText = fullAttributedString
     }
     
     private func createParagraphStyle() -> NSParagraphStyle

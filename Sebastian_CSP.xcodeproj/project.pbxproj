@@ -63,6 +63,13 @@
 		76C4A0111FE9A8AC0058C025 /* Invader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Invader.swift; path = ../../../../../Downloads/GameCode/Model/Invader.swift; sourceTree = "<group>"; };
 		76C4A0121FE9A8AC0058C025 /* PlayerLaser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerLaser.swift; path = ../../../../../Downloads/GameCode/Model/PlayerLaser.swift; sourceTree = "<group>"; };
 		76C4A0131FE9A8AC0058C025 /* Projectile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Projectile.swift; path = ../../../../../Downloads/GameCode/Model/Projectile.swift; sourceTree = "<group>"; };
+		76C4A01A1FE9A95B0058C025 /* boss sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "boss sound.mp3"; path = "../../../../../Downloads/GameCode/Sounds/boss sound.mp3"; sourceTree = "<group>"; };
+		76C4A01B1FE9A95B0058C025 /* laser sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "laser sound.mp3"; path = "../../../../../Downloads/GameCode/Sounds/laser sound.mp3"; sourceTree = "<group>"; };
+		76C4A01C1FE9A95B0058C025 /* powerup sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "powerup sound.mp3"; path = "../../../../../Downloads/GameCode/Sounds/powerup sound.mp3"; sourceTree = "<group>"; };
+		76C4A01D1FE9A95B0058C025 /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "extra sound.mp3"; path = "../../../../../Downloads/GameCode/Sounds/extra sound.mp3"; sourceTree = "<group>"; };
+		76C4A01E1FE9A95B0058C025 /* invader sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "invader sound.mp3"; path = "../../../../../Downloads/GameCode/Sounds/invader sound.mp3"; sourceTree = "<group>"; };
+		76C4A0201FE9A99A0058C025 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = StarField.sks; path = ../../../../../Downloads/GameCode/StarField.sks; sourceTree = "<group>"; };
+		76C4A0211FE9A99A0058C025 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../../../../../Downloads/GameCode/Utilities.swift; sourceTree = "<group>"; };
 		76CCE44E1FA2599700A69930 /* Sebastian_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sebastian_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76CCE4511FA2599700A69930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76CCE4531FA2599700A69930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +150,27 @@
 			path = GameController;
 			sourceTree = "<group>";
 		};
+		76C4A0191FE9A9460058C025 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				76C4A01A1FE9A95B0058C025 /* boss sound.mp3 */,
+				76C4A01D1FE9A95B0058C025 /* extra sound.mp3 */,
+				76C4A01E1FE9A95B0058C025 /* invader sound.mp3 */,
+				76C4A01B1FE9A95B0058C025 /* laser sound.mp3 */,
+				76C4A01C1FE9A95B0058C025 /* powerup sound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		76C4A01F1FE9A9750058C025 /* Sprites.spriteatlas */ = {
+			isa = PBXGroup;
+			children = (
+				76C4A0201FE9A99A0058C025 /* StarField.sks */,
+				76C4A0211FE9A99A0058C025 /* Utilities.swift */,
+			);
+			path = Sprites.spriteatlas;
+			sourceTree = "<group>";
+		};
 		76CCE4451FA2599700A69930 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +195,8 @@
 		76CCE4501FA2599700A69930 /* Sebastian_CSP */ = {
 			isa = PBXGroup;
 			children = (
+				76C4A01F1FE9A9750058C025 /* Sprites.spriteatlas */,
+				76C4A0191FE9A9460058C025 /* Sounds */,
 				76C4A0061FE9A2C90058C025 /* Model */,
 				76CCE48C1FA25D8800A69930 /* Controller */,
 				76CCE48D1FA25DD900A69930 /* View */,

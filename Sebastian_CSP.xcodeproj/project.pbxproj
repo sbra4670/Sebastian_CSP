@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		76518B831FCF3BAF00A36A67 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76518B821FCF3BAF00A36A67 /* WebKit.framework */; };
 		765440161FD9D37200677FBD /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765440151FD9D37200677FBD /* ArtCell.swift */; };
+		76895D301FE9B1EA0055ADF7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76895D2F1FE9B1EA0055ADF7 /* Utilities.swift */; };
 		76A8EE371FB399FC00A3FDF6 /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A8EE361FB399FC00A3FDF6 /* AlgorithmsViewController.swift */; };
 		76C4A0081FE9A2F90058C025 /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4A0071FE9A2F90058C025 /* PlayerLaser.swift */; };
 		76C4A00A1FE9A4A40058C025 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4A0091FE9A4A40058C025 /* DeathScene.swift */; };
@@ -52,6 +53,8 @@
 /* Begin PBXFileReference section */
 		76518B821FCF3BAF00A36A67 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		765440151FD9D37200677FBD /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		76895D2E1FE9B1EA0055ADF7 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = StarField.sks; path = ../../../../../.Trash/StarField.sks; sourceTree = "<group>"; };
+		76895D2F1FE9B1EA0055ADF7 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../../../../../.Trash/Utilities.swift; sourceTree = "<group>"; };
 		76A8EE361FB399FC00A3FDF6 /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		76C4A0071FE9A2F90058C025 /* PlayerLaser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerLaser.swift; sourceTree = "<group>"; };
 		76C4A0091FE9A4A40058C025 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
@@ -68,8 +71,6 @@
 		76C4A01C1FE9A95B0058C025 /* powerup sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "powerup sound.mp3"; path = "../../../../../Downloads/GameCode/Sounds/powerup sound.mp3"; sourceTree = "<group>"; };
 		76C4A01D1FE9A95B0058C025 /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "extra sound.mp3"; path = "../../../../../Downloads/GameCode/Sounds/extra sound.mp3"; sourceTree = "<group>"; };
 		76C4A01E1FE9A95B0058C025 /* invader sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "invader sound.mp3"; path = "../../../../../Downloads/GameCode/Sounds/invader sound.mp3"; sourceTree = "<group>"; };
-		76C4A0201FE9A99A0058C025 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = StarField.sks; path = ../../../../../Downloads/GameCode/StarField.sks; sourceTree = "<group>"; };
-		76C4A0211FE9A99A0058C025 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../../../../../Downloads/GameCode/Utilities.swift; sourceTree = "<group>"; };
 		76CCE44E1FA2599700A69930 /* Sebastian_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sebastian_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76CCE4511FA2599700A69930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76CCE4531FA2599700A69930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -162,15 +163,6 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		76C4A01F1FE9A9750058C025 /* Sprites.spriteatlas */ = {
-			isa = PBXGroup;
-			children = (
-				76C4A0201FE9A99A0058C025 /* StarField.sks */,
-				76C4A0211FE9A99A0058C025 /* Utilities.swift */,
-			);
-			path = Sprites.spriteatlas;
-			sourceTree = "<group>";
-		};
 		76CCE4451FA2599700A69930 = {
 			isa = PBXGroup;
 			children = (
@@ -195,7 +187,6 @@
 		76CCE4501FA2599700A69930 /* Sebastian_CSP */ = {
 			isa = PBXGroup;
 			children = (
-				76C4A01F1FE9A9750058C025 /* Sprites.spriteatlas */,
 				76C4A0191FE9A9460058C025 /* Sounds */,
 				76C4A0061FE9A2C90058C025 /* Model */,
 				76CCE48C1FA25D8800A69930 /* Controller */,
@@ -253,6 +244,8 @@
 		76CCE48F1FA25DFE00A69930 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				76895D2E1FE9B1EA0055ADF7 /* StarField.sks */,
+				76895D2F1FE9B1EA0055ADF7 /* Utilities.swift */,
 				76CCE45D1FA2599700A69930 /* Info.plist */,
 				76CCE4581FA2599700A69930 /* Assets.xcassets */,
 			);
@@ -405,6 +398,7 @@
 				76C4A0161FE9A8AC0058C025 /* Invader.swift in Sources */,
 				76A8EE371FB399FC00A3FDF6 /* AlgorithmsViewController.swift in Sources */,
 				76CCE4541FA2599700A69930 /* ViewController.swift in Sources */,
+				76895D301FE9B1EA0055ADF7 /* Utilities.swift in Sources */,
 				76C4A0081FE9A2F90058C025 /* PlayerLaser.swift in Sources */,
 				76CCE4951FA25F1A00A69930 /* InternetDetailViewController.swift in Sources */,
 				765440161FD9D37200677FBD /* ArtCell.swift in Sources */,
